@@ -1,7 +1,7 @@
-b = "txt"
+b="txt"
 while True:
-	a = input()
-	b += "\n" + a
-	f= open("note.txt","w+")
+	a=input()
+	b+="\n"+a
+	f=open("note.txt","w+")
 	f.write(b)
 	f.close()
