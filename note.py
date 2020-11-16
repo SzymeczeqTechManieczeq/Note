@@ -5,3 +5,5 @@ while True:
 	f=open("note.txt","w+")
 	f.write(b)
 	f.close()
+except KeyboardInterrupt:
+	pass
