@@ -1,4 +1,4 @@
-b = "text"
+b = "txt"
 while True:
 	a = input()
 	b += "\n" + a
