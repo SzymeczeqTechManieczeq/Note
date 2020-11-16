@@ -1,6 +1,5 @@
-d = 6
 print("every note is writed")
-while d > 2:
+while True:
 	a = input("write: ")
 	print(a)
 	f= open("autosave.txt","w+")
